@@ -24,7 +24,7 @@ header{
 }
 
 
-#search-btn{
+#search-btn, .history-btn{
     background-color: #559BE1;
     color: white;
     border-radius: 3px;
@@ -36,16 +36,24 @@ header{
     text-align: center;
 }
 
-#search-btn:hover{
+#search-btn:hover, .history-btn:hover{
     background-color: #0e6ac5;
     cursor: pointer;
 }
 
+ul{
+    margin-left: -6%;
+}
+
 .forecast-day{
     width: 100%;
-    background-color: #003D98;
-    border-radius: 3px;
+    background-color: #094399c1;
+    border-radius: 5px;
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin-right: 3%;
+}
+
+#hidden {
+    display: none;
 }
